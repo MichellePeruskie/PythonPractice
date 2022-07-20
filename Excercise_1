@@ -1,0 +1,13 @@
+# CHARACTER INPUT
+
+# Exercise 1 
+# Create a program that asks the user to enter their name and their age. Print out a message addressed to them that tells them the year that they will turn 100 years old. 
+
+name= input("Tell me your name: ")
+current_year=int(input("What is the current year? "))
+age= int(input("How old are you? "))
+year_born= int(current_year - age)
+years_to_100=int(100-age)
+year_will_be_100= int(current_year + years_to_100)
+
+print("Your name is " + name + ". You're " + str(age) + " years old. And the current year is " + str(current_year) + ". So, in " + str(years_to_100) + " you'll be 100 years old. And the year will be " + str(year_will_be_100))
